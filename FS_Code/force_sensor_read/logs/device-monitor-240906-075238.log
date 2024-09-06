@@ -1,0 +1,33 @@
+19786018	| average:	:	0.0026688120	| average:	0.0020246160
+one reading:	0.0031289517	| average:	0.0021166439
+one reading:	0.0019786018	| average:	HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		2456
+read average: 		2450
+get value: 		2447.00
+get units: 		2456.0
+After setting up the scale:
+read: 		2456
+read average: 		2458
+get value: 		7.00
+get units: 		0.0
+Readings:
+one reading:	0.0005981820	| average:	0.0004141260
+one reading:	0.0007362239	| average:	0.0001840560
+one reading:	-0.0010583219	| average:	-0.0063959455
+one reading:	-0.0072702112	| average:	-0.0071781835
+one reading:	-0.0075002818	| average:	-0.0071781835
+one reading:	-0.0068100714	| average:	-0.0070401420
+one reading:	-0.0078683938	| average:	-0.0049695115
+one reading:	0.0002760840	| average:	0.0007362239
+one reading:	0.0007362239	| average:	0.0012423778
+one reading:	0.0010583219	| average:	0.0009662939
+one reading:	0.0012883918	| average:	0.0011043359
+one reading:	0.0005981820	| average:	-0.0054756650
+one reading:	-0.0063499317	| average:	-0.0058897919
+one reading:	-0.0057977638	| average:	-0.0057977638
+one reading:	-0.0060278329	| average:	-0.0059818196
+one reading:	0.0007362239	| average:	0.0014264339
+one reading:	0.0014264339	| average:	0.0014264339
+one reading:	0.0006902099	| average:	

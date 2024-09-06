@@ -1,0 +1,60 @@
+HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		2497
+read average: 		2498
+get value: 		2492.00
+get units: 		2498.0
+After setting up the scale:
+read: 		2503
+read average: 		2495
+get value: 		19.00
+get units: 		9.0
+Readings:
+one reading:	-3.0000000000	| average:	5.0000000000
+one reading:	7.0000000000	| average:	2.0000000000
+one reading:	-5.0000000000	| average:	6.0000000000
+one reading:	23.0000000000	| average:	9.0000000000
+one reading:	19.0000000000	| average:	7.0000000000
+one reading:	4.0000000000	| average:	13.0000000000
+one reading:	6.0000000000	| average:	10.0000000000
+one reading:	15.0000000000	| average:	11.0000000000
+one reading:	14.0000000000	| average:	7.0000000000
+one reading:	-4308.0000000000	| average:	-9514.0000000000
+one reading:	-6050.0000000000	| average:	-5507.0000000000
+one reading:	-4953.0000000000	| average:	-4834.0000000000
+one reading:	-4709.0000000000	| average:	-4636.0000000000
+one reading:	-4618.0000000000	| average:	-4573.0000000000
+one reading:	-4552.0000000000	| average:	-4547.0000000000
+one reading:	-4532.0000000000	| average:	-4545.0000000000
+one reading:	-4509.0000000000	| average:	-4525.0000000000
+one reading:	-4560.0000000000	| average:	-4525.0000000000
+one reading:	-4500.0000000000	| average:	-4520.0000000000
+one reading:	-4530.0000000000	| average:	-4510.0000000000
+one reading:	-4545.0000000000	| average:	-4541.0000000000
+one reading:	-4515.0000000000	| average:	-4509.0000000000
+one reading:	-4496.0000000000	| average:	-9522.0000000000
+one reading:	-548.0000000000	| average:	-309.0000000000
+one reading:	-163.0000000000	| average:	-137.0000000000
+one reading:	-112.0000000000	| average:	-108.0000000000
+one reading:	-82.0000000000	| average:	-88.0000000000
+one reading:	-78.0000000000	| average:	-82.0000000000
+one reading:	-69.0000000000	| average:	-62.0000000000
+one reading:	-55.0000000000	| average:	-53.0000000000
+one reading:	-63.0000000000	| average:	-330.0000000000
+one reading:	-35.0000000000	| average:	-42.0000000000
+one reading:	-46.0000000000	| average:	-34.0000000000
+one reading:	-30.0000000000	| average:	-37.0000000000
+one reading:	-37.0000000000	| average:	-32.0000000000
+one reading:	-33.0000000000	| average:	-31.0000000000
+one reading:	-29.0000000000	| average:	-97.0000000000
+one reading:	-214.0000000000	| average:	-219.0000000000
+one reading:	-206.0000000000	| average:	-219.0000000000
+one reading:	-204.0000000000	| average:	-205.0000000000
+one reading:	-22.0000000000	| average:	-16.0000000000
+one reading:	-28.0000000000	| average:	-67.0000000000
+one reading:	-24.0000000000	| average:	-24.0000000000
+one reading:	-24.0000000000	| average:	-21.0000000000
+one reading:	-24.0000000000	| average:	-20.0000000000
+one reading:	-20.0000000000	| average:	-8.0000000000
+one reading:	-10.0000000000	| average:	

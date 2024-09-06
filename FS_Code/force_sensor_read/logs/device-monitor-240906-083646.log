@@ -1,0 +1,16 @@
+Initializing
+Do you want to recalibrate the scale? 0 for no, 1 for S1, 2 for S2, 3 for S3, 4 for S4
+PRESS ANY CHARACTER & ENTER TO START DATA COLLECTION
+---------------------------------
+Live readings:
+Time (ms), Sensor 1 Force (N), Sensor 2 Force (N), Sensor 3 Force (N), Sensor 4 Force (N)
+3628, 2.4031007289
+4452, 2.4349699020
+5394, 2.3376400470
+6336, 2.8501291275
+7277, 3.2988803386
+8219, 3.3996555805
+9161, 2.5598621368
+10102, 2.3462531566
+11044, 2.8001723289
+11985, 

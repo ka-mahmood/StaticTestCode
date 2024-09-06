@@ -1,0 +1,65 @@
+HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		2715
+read average: 		2956
+get value: 		2675.00
+get units: 		2515.0
+After setting up the scale:
+read: 		2328
+read average: 		2318
+get value: 		52.00
+get units: 		0.0
+Readings:
+one reading:	0.0113654577	| average:	0.0253537130
+one reading:	0.0584837913	| average:	0.0848958206
+one reading:	0.1385021324	| average:	0.1727825546
+one reading:	0.2006210327	| average:	0.1740249395
+one reading:	0.0867823982	| average:	0.0532842111
+one reading:	0.0179914712	| average:	-0.0095709114
+one reading:	-0.0555388927	| average:	-0.0695731639
+one reading:	-0.0835614204	| average:	-0.0865523242
+one reading:	-0.0953870201	| average:	-0.1004485607
+one reading:	-0.0935464572	| average:	-0.0831472969
+one reading:	-0.0809846401	| average:	-0.0851719093
+one reading:	-0.0989761066	| average:	-0.1094212770
+one reading:	-0.1323822736	| average:	-0.1463705301
+one reading:	-0.1666166782	| average:	-0.1774299716
+one reading:	-0.1901758384	| average:	-0.1945011615
+one reading:	-0.2008971214	| average:	-0.2018634080
+one reading:	-0.2061887264	| average:	-0.2037960052
+one reading:	-0.2074311017	| average:	-0.2061887264
+one reading:	-0.2046242475	| average:	-0.2053604602
+one reading:	-0.2092716455	| average:	-0.2064648151
+one reading:	-0.2065568208	| average:	-0.2058666229
+one reading:	-0.2053144454	| average:	-0.2058666229
+one reading:	-0.2068789243	| average:	-0.2058206081
+one reading:	-0.2046242475	| average:	-0.2063727855
+one reading:	-0.2061427116	| average:	-0.2056825637
+one reading:	-0.2074311017	| average:	-0.2059126377
+one reading:	-0.2056365489	| average:	-0.2070169687
+one reading:	-0.2075231313	| average:	-0.2066488504
+one reading:	-0.2083973884	| average:	-0.2069249391
+one reading:	-0.2054064750	| average:	-0.2058666229
+one reading:	-0.2055445194	| average:	-0.2060506820
+one reading:	-0.2045782327	| average:	-0.2052224159
+one reading:	-0.2073390722	| average:	-0.2056825637
+one reading:	-0.2058666229	| average:	-0.2060046672
+one reading:	-0.2077992200	| average:	-0.2055905342
+one reading:	-0.2051764011	| average:	-0.2062347412
+one reading:	-0.2077992200	| average:	-0.2061427116
+one reading:	-0.2074771165	| average:	-0.2064648151
+one reading:	-0.2059586524	| average:	-0.2058666229
+one reading:	-0.2062347412	| average:	-0.2062807559
+one reading:	-0.2059586524	| average:	-0.2054064750
+one reading:	-0.2039800405	| average:	-0.2055905342
+one reading:	-0.2070169687	| average:	-0.2054985046
+one reading:	-0.2044401884	| average:	-0.2041640996
+one reading:	-0.2050383567	| average:	-0.2049463272
+one reading:	-0.2327847957	| average:	-2.5597126483
+one reading:	-0.0792361021	| average:	-0.0530081272
+one reading:	-0.0340043449	| average:	-0.0297250413
+one reading:	-0.0244794464	| average:	-0.0196939926
+one reading:	0.0004601400	| average:	-0.0000920280
+one reading:	0.0002760840	| average:	0.0005521679
+one reading:	0.0007822380	| average:	0.0008742660

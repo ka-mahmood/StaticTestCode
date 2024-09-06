@@ -1,0 +1,70 @@
+HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		0
+read average: 		0
+get value: 		0.00
+get units: 		0.0
+After setting up the scale:
+read: 		0
+read average: 		0
+get value: 		0.00
+get units: 		0.0
+Readings:
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000

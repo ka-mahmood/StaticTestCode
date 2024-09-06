@@ -1,0 +1,39 @@
+HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		0
+read average: 		419813
+get value: 		0.00
+get units: 		0.0
+After setting up the scale:
+read: 		0
+read average: 		416153
+get value: 		-1494092.00
+get units: 		-68.7
+Readings:
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-61.3680839538
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078
+one reading:	-68.7491455078	| average:	-68.7491455078

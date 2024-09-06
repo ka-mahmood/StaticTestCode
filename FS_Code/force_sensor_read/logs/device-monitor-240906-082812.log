@@ -1,0 +1,37 @@
+Initializing
+Do you want to recalibrate the scale? 0 for no, 1 for S1, 2 for S2, 3 for S3, 4 for S4
+Place a weight onto the load cell; enter the mass and press enter.
+NOTE: this process will calibrate to Newtons.
+Calibrating to 1.00 kg...Averaged value with weight, minus tare: 		-1194.0000000000
+Calibrated value of weight: 		-1197.0000000000
+Calibration complete, save and put in code if required. Set to: 		-121.7125320434
+PRESS ANY CHARACTER & ENTER TO START DATA COLLECTION
+---------------------------------
+Live readings:
+Time (ms), Sensor 1 Force (N), Sensor 2 Force (N), Sensor 3 Force (N), Sensor 4 Force (N)
+14348, 829.0000000000
+15200, 748.0000000000
+16142, 790.0000000000
+17084, 799.0000000000
+18026, 879.0000000000
+18967, 772.0000000000
+19909, 789.0000000000
+20851, 702.0000000000
+21793, 1354.0000000000
+22734, 2280.0000000000
+23676, 2145.0000000000
+24619, 2159.0000000000
+25561, 2104.0000000000
+26502, 2207.0000000000
+27444, 1922.0000000000
+28386, 955.0000000000
+29328, 682.0000000000
+30269, 827.0000000000
+31211, 888.0000000000
+32153, 774.0000000000
+33094, 2208.0000000000
+34036, 2131.0000000000
+34978, 1993.0000000000
+35920, 2091.0000000000
+36861, 2214.0000000000
+37804, 

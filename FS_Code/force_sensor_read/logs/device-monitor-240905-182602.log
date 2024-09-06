@@ -1,0 +1,22 @@
+HX711 Demo
+Initializing the scale
+Before setting up the scale:
+read: 		-1
+read average: 		-1
+get value: 		-1.00
+get units: 		-1.0
+After setting up the scale:
+read: 		-1
+read average: 		-1
+get value: 		0.00
+get units: 		0.0
+Readings:
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
+one reading:	0.0000000000	| average:	0.0000000000
