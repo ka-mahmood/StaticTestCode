@@ -51,6 +51,7 @@ void setup() {
   LOADCELLS[3].tare(); // tare the value
 
   if (recalibrate != 0) {
+    LOADCELLS[recalibrate-1].set_scale();
     SCALE_VALUES[recalibrate-1] = get_calibration_val(LOADCELLS[recalibrate-1]);
   }
 
