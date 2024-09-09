@@ -29,10 +29,10 @@ void setup() {
 
 
   // ignore the zero value
-  SCALE_VALUES[0] = 4962.6601562500; // cal
-  SCALE_VALUES[1] = 14.2399997711; // cal
-  SCALE_VALUES[2] = 4240.9199218750; // cal
-  SCALE_VALUES[3] = 4548.7797851562; // cal
+  SCALE_VALUES[0] = 1055.5400390625; // cal
+  SCALE_VALUES[1] = 19.5599994659; // cal
+  SCALE_VALUES[2] = 20.5200004577; // cal
+  SCALE_VALUES[3] = 30.4599990844; // cal
 
   Serial.println("Do you want to recalibrate the scale? 0 for no, 1 for S1, 2 for S2, 3 for S3, 4 for S4");
   int recalibrate = 0;
@@ -42,15 +42,20 @@ void setup() {
   }
 
   // LOADCELLS[0].set_scale();
+  LOADCELLS[0].read_average(10); // blank reads to make sure it tares properly
   LOADCELLS[0].tare(); // tare the value
   // LOADCELLS[1].set_scale();
+  LOADCELLS[1].read_average(10);
   LOADCELLS[1].tare(); // tare the value
   // LOADCELLS[2].set_scale();
+  LOADCELLS[2].read_average(10);
   LOADCELLS[2].tare(); // tare the value
   // LOADCELLS[3].set_scale();
+  LOADCELLS[3].read_average(10);
   LOADCELLS[3].tare(); // tare the value
 
   if (recalibrate != 0) {
+    // LOADCELLS[recalibrate-1].read_average(20); // blank read to make sure it is set up
     LOADCELLS[recalibrate-1].set_scale();
     SCALE_VALUES[recalibrate-1] = get_calibration_val(LOADCELLS[recalibrate-1]);
   }
@@ -82,7 +87,7 @@ void loop() {
 
   Serial.print(millis() - tareTime);
   Serial.print(", ");
-  Serial.print((LOADCELLS[0].get_units(5)-TARE_VALUES[0]), 3); // minus 10 because calibrated to 10
+  Serial.print((LOADCELLS[0].get_units(5)-TARE_VALUES[0]), 3); 
   Serial.print(", ");
   Serial.print((LOADCELLS[1].get_units(5)-TARE_VALUES[1]), 3);
   Serial.print(", ");
@@ -97,7 +102,7 @@ float get_calibration_val(HX711 sensor) {
 
   float temp_scale_val = 0;
   // delay to ensure that the load cell is set up
-  Serial.println("Place a 1 kg weight onto the load cell, press any number then enter.");
+  Serial.println("Place a 50 N weight onto the load cell, press any number then enter.");
   Serial.println("NOTE: this process will calibrate to Newtons.");
 
   float mass = 50;
@@ -110,7 +115,11 @@ float get_calibration_val(HX711 sensor) {
 
   Serial.print("Calibrating to ");
   Serial.print(mass);
-  Serial.print(" N...");
+  Serial.println(" N...");
+
+  Serial.print("Tare value: ");
+  float tare_val = sensor.read();
+  Serial.println(tare_val);
 
   Serial.print("Averaged value with weight, minus tare: \t\t");
   temp_scale_val = sensor.get_value(10)/mass;
