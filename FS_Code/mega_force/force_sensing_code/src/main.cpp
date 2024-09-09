@@ -30,7 +30,7 @@ void setup() {
 
   // ignore the zero value
   SCALE_VALUES[0] = 4962.6601562500; // cal
-  SCALE_VALUES[1] = 3762.3999023437; // cal
+  SCALE_VALUES[1] = 14.2399997711; // cal
   SCALE_VALUES[2] = 4240.9199218750; // cal
   SCALE_VALUES[3] = 4548.7797851562; // cal
 
@@ -41,14 +41,14 @@ void setup() {
     recalibrate = Serial.parseInt();
   }
 
-  LOADCELLS[0].set_scale();
-  // LOADCELLS[0].tare(); // tare the value
-  LOADCELLS[1].set_scale();
-  // LOADCELLS[1].tare(); // tare the value
-  LOADCELLS[2].set_scale();
-  // LOADCELLS[2].tare(); // tare the value
-  LOADCELLS[3].set_scale();
-  // LOADCELLS[3].tare(); // tare the value
+  // LOADCELLS[0].set_scale();
+  LOADCELLS[0].tare(); // tare the value
+  // LOADCELLS[1].set_scale();
+  LOADCELLS[1].tare(); // tare the value
+  // LOADCELLS[2].set_scale();
+  LOADCELLS[2].tare(); // tare the value
+  // LOADCELLS[3].set_scale();
+  LOADCELLS[3].tare(); // tare the value
 
   if (recalibrate != 0) {
     SCALE_VALUES[recalibrate-1] = get_calibration_val(LOADCELLS[recalibrate-1]);
