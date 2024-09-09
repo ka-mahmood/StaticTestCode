@@ -12,7 +12,7 @@ int addition = 20; // addition value due to calibration
 HX711 LOADCELLS[4]; 
 const int LOADCELLS_DOUT[4] = {A0, A2, A4, A6};
 const int LOADCELLS_SCK[4] = {A1, A3, A5, A7};
-const int TARE_VALUES[4] = {0, 0, 0, 0};
+const float TARE_VALUES[4] = {40.206, 54.465, 59.128, 61.668};
 float SCALE_VALUES[4];
 float OUT[4];
 
@@ -29,10 +29,10 @@ void setup() {
 
 
   // ignore the zero value
-  SCALE_VALUES[0] = 1055.5400390625; // cal
-  SCALE_VALUES[1] = 19.5599994659; // cal
-  SCALE_VALUES[2] = 20.5200004577; // cal
-  SCALE_VALUES[3] = 30.4599990844; // cal
+  SCALE_VALUES[0] = 1152.1999511718; // cal
+  SCALE_VALUES[1] = 20.3799991607; // cal
+  SCALE_VALUES[2] = 22.2399997711; // cal
+  SCALE_VALUES[3] = 33.9399986267; // cal
 
   Serial.println("Do you want to recalibrate the scale? 0 for no, 1 for S1, 2 for S2, 3 for S3, 4 for S4");
   int recalibrate = 0;
@@ -44,15 +44,20 @@ void setup() {
   // LOADCELLS[0].set_scale();
   LOADCELLS[0].read_average(10); // blank reads to make sure it tares properly
   LOADCELLS[0].tare(); // tare the value
+        Serial.println("1 pass.");
   // LOADCELLS[1].set_scale();
   LOADCELLS[1].read_average(10);
   LOADCELLS[1].tare(); // tare the value
+      Serial.println("2 pass");
   // LOADCELLS[2].set_scale();
   LOADCELLS[2].read_average(10);
   LOADCELLS[2].tare(); // tare the value
   // LOADCELLS[3].set_scale();
+        Serial.println("3 pass");
   LOADCELLS[3].read_average(10);
   LOADCELLS[3].tare(); // tare the value
+      Serial.println("4 pass.");
+
 
   if (recalibrate != 0) {
     // LOADCELLS[recalibrate-1].read_average(20); // blank read to make sure it is set up
@@ -87,13 +92,13 @@ void loop() {
 
   Serial.print(millis() - tareTime);
   Serial.print(", ");
-  Serial.print((LOADCELLS[0].get_units(5)-TARE_VALUES[0]), 3); 
+  Serial.print((LOADCELLS[0].get_units(5)+TARE_VALUES[0]), 3); 
   Serial.print(", ");
-  Serial.print((LOADCELLS[1].get_units(5)-TARE_VALUES[1]), 3);
+  Serial.print((LOADCELLS[1].get_units(5)+TARE_VALUES[1]), 3);
   Serial.print(", ");
-  Serial.print((LOADCELLS[2].get_units(5)-TARE_VALUES[2]), 3);
+  Serial.print((LOADCELLS[2].get_units(5)+TARE_VALUES[2]), 3);
   Serial.print(", ");
-  Serial.println((LOADCELLS[3].get_units(5)-TARE_VALUES[3]), 3);
+  Serial.println((LOADCELLS[3].get_units(5)+TARE_VALUES[3]), 3);
 
 
 }
