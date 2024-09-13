@@ -1,0 +1,33 @@
+Initializing
+Do you want to recalibrate the scale? 0 for no, 1 for S1, 2 for S2, 3 for S3, 4 for S4, 5 for all
+1 pass.
+2 pass
+3 pass
+4 pass.
+Place a 50 N weight onto the load cell, press any number then enter.
+NOTE: this process will calibrate to Newtons.
+Calibrating to 50.00 N...
+Tare value: 533419.00
+Averaged value with weight, minus tare: 		10046.7597656250
+Calibrated value of weight: 		503351.0000000000
+Calibration complete, save and put in code if required. Set to: 		10046.7597656250
+PRESS ANY NUMBER & ENTER TO START DATA COLLECTION
+---------------------------------
+Live readings:
+Time (ms), Sensor 1 Force (N), Sensor 2 Force (N), Sensor 3 Force (N), Sensor 4 Force (N)
+0, 0.327, -9.442, -5.407, -2.493
+1291, 0.277, -8.826, -5.149, -2.561
+2612, 0.324, -10.263, -5.252, -3.639
+3932, 5.961, -10.222, -5.742, -4.683
+5252, 10.482, -10.181, -5.639, -5.610
+6573, 11.499, -10.427, -6.437, -5.340
+7893, 11.285, -10.468, -6.256, -5.997
+9213, 18.772, -11.207, -6.179, -5.863
+10533, 21.641, -11.782, -6.153, -5.728
+11854, 26.589, -13.136, -6.977, -6.570
+13174, 31.952, -12.644, -7.029, -6.637
+14400, 31.739, -13.670, -6.591, -6.823
+15720, 32.299, -14.122, -6.720, -6.739
+17039, 44.627, -15.189, -7.518, -6.789
+18360, 41.486, -15.107, -7.132, -6.621
+19680, 41.084, -16.215, -7.492, 
